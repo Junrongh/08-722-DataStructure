@@ -39,7 +39,7 @@ public class BST implements BSTInterface {
 	 * i.e. build a root node
 	 */
 	public BST() {
-		root = null;
+		this.root = null;
 	}
 
 	/**
