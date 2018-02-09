@@ -19,7 +19,7 @@ public class HW6Driver {
      */
     public static void main(String[] args) throws IOException {
         Index index = new Index();
-        String inputFile = "src/test.txt";
+        String inputFile = "test.txt";
 
         System.out.println("********BUILD index tree: case sensitive************\n");
         BST<Word> tree1 = index.buildIndex(inputFile);
