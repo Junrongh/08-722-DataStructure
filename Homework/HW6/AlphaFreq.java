@@ -5,7 +5,7 @@
  * @author Junrong Huang
  */
 
-import java.util.;
+import java.util.*;
 
 /**
  * Sorts words according to alphabets first
@@ -14,7 +14,7 @@ import java.util.;
 public class AlphaFreq implements Comparator<Word> {
     @Override
     public int compare(Word w1, Word w2) {
-        int result = w1.getWord().compareTO(w2.getWord);
+        int result = w1.getWord().compareTo(w2.getWord());
         if (result != 0) {
             return result;
         }else {
