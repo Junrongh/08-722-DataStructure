@@ -5,8 +5,6 @@
  * @author Junrong Huang
  */
 
-import java.util.Comparator;
-import java.util.Iterator;
 import java.util.*;
 
 /**
@@ -165,6 +163,7 @@ public class BST<T extends Comparable<T>> implements Iterable<T>, BSTInterface<T
             } else {
                 return;
             }
+            return;
         }
         // Recursive case
         int compareresult = node.data.compareTo(toInsert);
