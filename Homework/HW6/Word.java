@@ -5,8 +5,7 @@
  * @author Junrong Huang
  */
 
-import java.util.Set;
-import java.util.HashSet;
+import java.util.*;
 
 public class Word implements Comparable<Word> {
     private String word;
